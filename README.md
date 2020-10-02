@@ -22,3 +22,23 @@ For logistic regression, using UMLS delivered the optimal area under the receive
 ## Conclusion
 
 In our experiments, terminologies with larger vocabularies and finer-grained representations were associated with better prediction performances. In particular, UMLS is consistently one of the best-performing ones. We believe that our work may help to inform better designs of predictive models, although further investigation is warranted.
+
+## Dependencies
+
+Python: 3.7+
+Pytorch 1.5.0
+Tensorflow 1.13.1+
+Pandas
+Pickle
+tqdm
+pytorch-transformers
+Google BERT
+
+## Contact
+
+Please post a Github issue if you have any questions.
+
+## Citation
+
+Please acknowledge the following work in papers or derivative software:
+
