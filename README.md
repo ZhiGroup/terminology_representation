@@ -25,14 +25,23 @@ In our experiments, terminologies with larger vocabularies and finer-grained rep
 
 ## Dependencies
 
-Python: 3.7+
-Pytorch 1.5.0
-Tensorflow 1.13.1+
-Pandas
-Pickle
-tqdm
-pytorch-transformers
-Google BERT
+This Repo mainly utilized the code from our [Pytorch_EHR Repo](https://github.com/ZhiGroup/pytorch_ehr), therefore all required packages are the same used for that Repo including
+
+  * Python 3.7+
+  
+  * Pytorch 1.4.0 +
+  
+  * Pandas 
+  
+  * Pickle
+  
+  * tqdm
+  
+  * sklearn
+
+  * Matplotlib / Plotly (for visualizations)
+
+
 
 ## Contact
 
@@ -42,3 +51,4 @@ Please post a Github issue if you have any questions.
 
 Please acknowledge the following work in papers or derivative software:
 
+Rasmy L, Tiryaki F, Zhou Y, Xiang Y, Tao C, Xu H, Zhi D. Representation of EHR data for predictive modeling: a comparison between UMLS and other terminologies. J Am Med Inform Assoc. 2020 Sep 15:ocaa180. doi: 10.1093/jamia/ocaa180. Epub ahead of print. PMID: 32930711.
